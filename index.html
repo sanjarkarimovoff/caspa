@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style/plugins/bootstrap5.css">
+    <link rel="stylesheet" href="assets/style/plugins/slick.css">
+    <link rel="stylesheet" href="assets/style/plugins/slick-theme.css">
+    <link rel="stylesheet" href="assets/style/css/main.css">
+</head>
+<body>
+    <div class="whatsapp position-fixed d-none d-lg-flex">
+        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24"  fill="#fff"><g><rect fill="none" height="24" width="24" y="0"/></g><g><g><g><path d="M19.05,4.91C17.18,3.03,14.69,2,12.04,2c-5.46,0-9.91,4.45-9.91,9.91c0,1.75,0.46,3.45,1.32,4.95L2.05,22l5.25-1.38 c1.45,0.79,3.08,1.21,4.74,1.21h0c0,0,0,0,0,0c5.46,0,9.91-4.45,9.91-9.91C21.95,9.27,20.92,6.78,19.05,4.91z M12.04,20.15 L12.04,20.15c-1.48,0-2.93-0.4-4.2-1.15l-0.3-0.18l-3.12,0.82l0.83-3.04l-0.2-0.31c-0.82-1.31-1.26-2.83-1.26-4.38 c0-4.54,3.7-8.24,8.24-8.24c2.2,0,4.27,0.86,5.82,2.42c1.56,1.56,2.41,3.63,2.41,5.83C20.28,16.46,16.58,20.15,12.04,20.15z M16.56,13.99c-0.25-0.12-1.47-0.72-1.69-0.81c-0.23-0.08-0.39-0.12-0.56,0.12c-0.17,0.25-0.64,0.81-0.78,0.97 c-0.14,0.17-0.29,0.19-0.54,0.06c-0.25-0.12-1.05-0.39-1.99-1.23c-0.74-0.66-1.23-1.47-1.38-1.72c-0.14-0.25-0.02-0.38,0.11-0.51 c0.11-0.11,0.25-0.29,0.37-0.43c0.12-0.14,0.17-0.25,0.25-0.41c0.08-0.17,0.04-0.31-0.02-0.43c-0.06-0.12-0.56-1.34-0.76-1.84 c-0.2-0.48-0.41-0.42-0.56-0.43C8.86,7.33,8.7,7.33,8.53,7.33c-0.17,0-0.43,0.06-0.66,0.31C7.65,7.89,7.01,8.49,7.01,9.71 c0,1.22,0.89,2.4,1.01,2.56c0.12,0.17,1.75,2.67,4.23,3.74c0.59,0.26,1.05,0.41,1.41,0.52c0.59,0.19,1.13,0.16,1.56,0.1 c0.48-0.07,1.47-0.6,1.67-1.18c0.21-0.58,0.21-1.07,0.14-1.18S16.81,14.11,16.56,13.99z"/></g></g></g></svg>
+    </div>
+    <div class="wrapper position-relative">
+        <div class="nav position-fixed start-0 w-100">
+            <div class="container">
+                <div class="row d-flex align-items-center justify-content-between">
+                    <div class="col-xl-2 col-3 d-flex align-items-center justify-content-between">
+                        <a href="#" class="logo_link">
+                            <img loading="lazy"  src="assets/img/png/logo.png" alt="logo" class="logo">
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-9 d-flex align-items-center justify-content-end">
+                        <a href="tel:+7 903 659 53 04" class="text-white fw-normal nav_phone">+7 903 659 53 04</a>
+                        <div class="nav-lang text-white fw-normal rounded-circle d-none d-lg-flex align-items-center justify-content-center">En</div>
+                        <div class="nav-menu-burger d-flex align-items-center justify-content-between flex-column">
+                            <span class="nav-menu-burger__list"></span>
+                            <span class="nav-menu-burger__list"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-line"></div>
+        </div>
+        <div class="container text-white">
+            <div class="row d-flex justify-content-center">
+                <div class="col-xl-10 col-12 d-none d-sm-block">
+                    <p class="wrapper__sub-title fw-normal">Ульянов Денис</p>
+                    <p class="wrapper__title wrapper__title1 text-center fw-bold mt-3">СОЗДАЮ И МОДЕРНИЗИРУЮ</p>
+                    <p class="wrapper__title wrapper__title2 text-start fw-bold">БРЕНДЫ ДЛЯ ЛИДЕРОВ</p>
+                    <p class="wrapper__title wrapper__title3 text-center fw-bold">ОТРАСЛИ</p>
+                </div>
+                
+                <div class="col-12 d-sm-none d-flex justify-content-center">
+                    <div class="d-inline-block">
+                        <p class="wrapper__sub-title fw-normal">Ульянов Денис</p>
+                        <p class="wrapper__title wrapper__title1 text-start mt-4 ps-5 fw-bold">СОЗДАЮ</p>
+                        <p class="wrapper__title wrapper__title2 text-start fw-bold">И МОДЕРНИЗИРУЮ</p>
+                        <p class="wrapper__title wrapper__title1 text-start ps-5 fw-bold">БРЕНДЫ ДЛЯ</p>
+                        <p class="wrapper__title wrapper__title2 text-start fw-bold"> ЛИДЕРОВ</p>
+                        <p class="wrapper__title wrapper__title4 text-start fw-bold">ОТРАСЛИ</p>
+                    </div>
+                </div>
+                <div class="col-10 d-flex justify-content-end mt-5">
+                   <div class="d-none d-sm-block">
+                    <p class="wrapper__text wrapper__text1 fw-normal">C 2007 года, самостоятельно и среди коллег,</p>
+                    <p class="wrapper__text wrapper__text2 fw-normal">разрабатываю визуальный язык, который помогает выйти </p>
+                    <p class="wrapper__text wrapper__text3 fw-normal">на новый уровень крупным компаниям и поддерживает их </p>
+                    <p class="wrapper__text wrapper__text4 fw-normal">стабильное развитие.</p>
+                   </div>
+                   <div class="d-sm-none mt-4">
+                    <p class="wrapper__text wrapper__text1 fw-normal">C 2007 года, самостоятельно и среди коллег, разрабатываю визуальный язык, который помогает выйти на новый уровень крупным компаниям и поддерживает их стабильное развитие.</p>
+                   </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper-slider">
+            <div class="container position-relative">
+                <div class="row d-flex align-items-end justify-content-lg-center justify-content-between">
+                    <div class="col-lg-7 col-md-11 col-10  wrapper-slider-left position-relative pe-lg-5 pe-0">
+                        <div class="wrapper-slider-left-bg position-absolute"></div>
+                        <div class="slider-left">
+                            <div class="slider-item">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p class="slider-item__title text-white">Актуальность</p>
+                                    <p class="slider-item__num">01</p>
+                                </div>
+                                <p class="slider-item__text text-white fw-normal">Моим клиентам важно, чтобы визуальный стиль не <br> требовал постоянных обновлений. Поэтому я не гонюсь <br> за трендами, а создаю дизайн, который выглядит солидно <br> сейчас и воспринимается актуальным ещё долгие годы.</p>
+                            </div>
+                            <div class="slider-item">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p class="slider-item__title text-white">Результат</p>
+                                    <p class="slider-item__num">02</p>
+                                </div>
+                                <p class="slider-item__text text-white fw-normal">Мои клиенты получают индивидуальный авторский дизайн <br> уровня топовых именитых агентств без дополнительных затрат. <br> Потому что в стоимость моих услуг не входит содержание <br> офиса, менеджеров и других сотрудников.</p>
+                            </div>
+                            <div class="slider-item">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p class="slider-item__title text-white">Деньги</p>
+                                    <p class="slider-item__num">03</p>
+                                </div>
+                                <p class="slider-item__text text-white fw-normal">Мои клиенты ценят свое время, поэтому не тратят его <br> на долгие согласования промежуточных вариантов. <br> Результат утверждается с первого раза, так как я беру <br> на себя ответственность за выбор лучших направлений <br> и отдаю на согласование уже законченную работу.</p>
+                            </div>
+                        </div>
+                        <div class="wrapper-slider-left-btns d-flex">
+                            <button class="wrapper__btn1">Портфолио</button>
+                            <button class="wrapper__btn2">Отзыв</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-1 col-2 wrapper-slider-right d-flex flex-column justify-content-center align-items-center text-end">
+                        <img loading="lazy"  src="https://static.tildacdn.com/tild3435-6530-4265-b165-396566643938/ezgifcom-gif-maker9.gif" alt="gif" class="wrapper-slider-right__gif w-75 mb-5 d-none d-lg-block">
+                        <div class="wrapper-slider-right-box position-relative">
+                            <div class="wrapper-slider-right-box-bg position-absolute"></div>
+                            <div class="slider-right">
+                                <div class="item"></div>
+                                <div class="item"></div>
+                                <div class="item"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="nav w-100">
+                <div class="container">
+                    <div class="row d-flex align-items-center justify-content-between">
+                        <div class="col-md-2 col-3">
+                            <a href="#">
+                                <img loading="lazy"  src="assets/img/png/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="col-xl-2 col-md-3 col-sm-4 col-6 d-flex align-items-center justify-content-between">
+                            <div class="nav-lang_menu text-white fw-normal rounded-circle d-flex align-items-center justify-content-center">En</div>
+                            <div class="close-menu position-relative">
+                                <span class="close-menu__list"></span>
+                                <span class="close-menu__list"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex align-items-end justify-content-center mt-5 position-relative px-lg-0 px-3">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-sm-start text-center">
+                    <ul>
+                        <li class="menu-item__list"><a href="#" class="text-white menu-item__link fw-normal">ГЛАВНАЯ</a></li>
+                        <li class="menu-item__list"><a href="#" class="text-white menu-item__link fw-normal">ПРОЕКТЫ</a></li>
+                        <li class="menu-item__list"><a href="#" class="text-white menu-item__link fw-normal">АВТОР</a></li>
+                        <li class="menu-item__list"><a href="#" class="text-white menu-item__link fw-normal">ОТЗЫВЫ</a></li>
+                        <li class="menu-item__list"><a href="#" class="text-white menu-item__link fw-normal">УСЛУГИ</a></li>
+                        <li class="menu-item__list"><a href="#" class="text-white menu-item__link fw-normal">СТАТЬИ</a></li>
+                        <li class="menu-item__list"><a href="#" class="text-white menu-item__link fw-normal">КОНТАКТЫ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-sm-center d-sm-block d-flex align-items-center justify-content-center flex-column">
+                    <a href="tel:++79036595304" class="text-white menu-item__link fw-normal">+7 903.659.53.04</a> <br>
+                    <button class="to-order__btn">Заказать обратный звонок</button> <br>
+                    <a href="mailto:caspa@inbox.ru" class="text-white menu-item__link fw-normal">caspa@inbox.ru</a> <br>
+                    <button class="submit__btn">Отправить заявку</button>
+                </div>
+                <div class="col-lg-3 col-md-4 col-12 mt-5 mt-md-0 ps-5 ">
+                    <div class="menu-item-icons d-md-block d-flex justify-content-center">
+                        <div class="d-flex">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="13" viewBox="0 0 20 13">
+                                    <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="20" height="13" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAABoklEQVQ4jX2TPUiXURTGf5aJodDnJDWEDn2JQUaDk+JWNoij4HBum4MN0VBJgovQUIO03EP4sSkotdWgYw2Ci+giiotOaYJipRgnziuHP689cHjPvffc5z3nOedWqeZjynEILAFvRdJkEaGaG4Hmyhsiada+Z04hM1QDLcCEau4O+13ATIlRSTgGtLt1AM+A3372NMR9AC6V2EkWBdZF0nxYz6nmHqANuBL27fIg8Bi4DGwBn1TzsEj6EQlrVfPFsL4H3HV/0fVrAL4D10Jco1fzRDU/iCW/ALaDzQEXgAXgpceMOJlJ0QvcAga8gUb86n9dLrBnTQSmgZ9AHTAqkvqLANU8BZg8a5HwPfDO/bPATW/Adc+6FVj18wPgV/jpeaAGOIoa7oik9bBeVc3jXq414kY4WwY2ysqpLtsMaAr+JvAHOGddFUlvQslXgXrTMpZs3fsWCO4Ane6vALeBz8Aj17LPG3cfMA1ttL7GDB+6VWIfSCLpWDU/9xjL6N9TC9i18bEMKw8K2GjYW/4okk70Us02NkM2d05sRF+A1yJp5S97RnwUCpgVswAAAABJRU5ErkJggg=="/>
+                                </svg>
+                            </div>
+                            <div class="icon mx-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="17" viewBox="0 0 17 17">
+                                    <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="17" height="17" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAB9UlEQVQ4jZXUS4hPYRjH8c/8jSwot2Sj1CQNsUAWKClKWbjNFCmK91BKYaFMiaWNkAXSeV2KbJRplLKyIJdSiFwSSUm5DJKNS+mdHnWMS3k359/pfb7/3/P8nt9pM+jkXI/BJixFJ0bjPR6hD8dSqvqbVb9Acq43Yy9G4htO4i3GYQ6m4iN6UqqO/AbJuT6AbbiFB1iHlFJ1vHFnHg5hJg6mVG0v71sNBQVwFuXiRtwuF3OuJzbElnef4ve2qNMWM3iGJwWQUvUlwNOjqDelqjvnurRyGjOwA6sxCR2tGGKZwfafAAN9VPeKEnTlXF/AXUwubaZU7cOWqNtUlFwrNKzE8Bhi+YdpmI/xwT2F3SlVLxozelicK5D+sHHweY2bKOq6sBj3MQJf0R9Kl7UCUPxfgSWYVdSkVI0Ph+4E/BJe4nHM8APWlvr2WKQ3KVW9DZlDcq53Yle0+Dme+/E0VmMCVmFUe2zi3AagDOscFuEy9sTildk9T6k63LjbXepb0cqUnOu5OdfDcDEARcnClKorMZtXWN4ALAgD+pp78jRsXI+tKVWHBkXiKDaErd9xNSzvaEWYemKVC+DMYECcUjQ0Wj+B2ZGh/oG1jzAVu8rpLK39AXIjnuexJrIzEMJ/pbiE8DreYWxkqnwa/p7iBuj/vif4Ae9ItfibOnxOAAAAAElFTkSuQmCC"/>
+                                  </svg>
+                            </div>
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="18" viewBox="0 0 14 18">
+                                    <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="14" height="18" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAASCAYAAABrXO8xAAABlUlEQVQ4jYXSTYjOURTH8c/zDKOUIikvJRJlp4YUjVgoKclG9vcuhLKQJWXDUl5mof63LGYWs1YsxIrUaKJGyYIVobw3G3nt1vlPzzw9w9n8/uee873nnHv+HT1WSrMeJ3AAm7EUXzCFCYynlH9XYg4spTmDS1iMGnyF79gYF1R7hCMp5fedgM7jAn7gIq6llD9GbBjHcAXL8QS7OqU02/E4qhxKKd82wEpp9uF+RM5WcBJHcSOlfLyUZgS3Yoy9KeUXPeM8wG7MdLE/zsdDL2MNVuNgX+1noVsruCKc9uYdPYlv+sAlod0KfgpnVejn0D89M7W2KfRdBe+Gczr0eehUSvlDz3zLsLONdWMN37CnlKb6IxF82FftFIbje6LdY13yltoCnkaw6mhKebaU5jAmY8bpWrn/lzuJ6/iFIcyitrshUl7Hil52+9oZDb0TrX0N6C2uYluFasKiBcB7KeUxjJXSDKWUawfzbK5iKc1KrG3B9nwQNA/EutDplPLMoOSFwJ+h5/4H9YN1FTdTyvVh/m34C/3Yd/rr6gtyAAAAAElFTkSuQmCC"/>
+                                </svg>                                  
+                            </div>
+                        </div>
+                        <div class="d-flex mt-0 mt-md-4 ms-3 ms-md-0">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="6" height="14" viewBox="0 0 7 14">
+                                    <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="7" height="14" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAOCAYAAADjXQYbAAAAdElEQVQYlWNkgIK5c+dkMDAwlDMwMCjAxMCSc+fOsWBgYDjOgAZYoFxTJOEXDAwMMxmQJJmRJE8mJ6c0gI2dO3dOAQMDgz0DA0MAVPIKyCaYzn40q3SgYl+Y0B2BBJ7BXAsyGmbCxuTkFLAV+HQOMkkGBgYAzqEWX2EYJaYAAAAASUVORK5CYII="/>
+                                </svg>                                  
+                            </div>
+                            <div class="icon mx-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="17" viewBox="0 0 17 17">
+                                    <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="17" height="17" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABdklEQVQ4ja3UsWoVURAG4C9xCRKLQAohhWIVEe8TWNhpJTZBg9wikLOgNnkX00RhN2ARxMrWOkWe4FoIVloEUgTSBLkQIiOzcLxEDeg0s3Pm/P/O/LOzc9D3XfgNbOIulv3ejvEJu3hbSns+lwTvsI4jHOAEp5hWVAtYxBLu4Tre41mTFawn88tS2ukfqoiqA3MVr7Lyj00+HF2GIG2Ca7iDR4FvUoP9mqDvuytoMcZNfMUeumw17Hu2fr9JEU9mCKLXNRzmm0d4jQehRyntWd4N3PJ8Yk+rctskeINbpbQPw2e8lnk1biCptRhnBVtDi+m38nxc3Z3WJLWFBpNZkTOeZP4Xu4gkRBz1fbdQH2Y8yvyFJDUgprCC7YEo/Xae71V3f+abDBarRIwxxHyOx33fDdMJgg+ZV+PmcxeWqt5jfE/xAl+wmj7iJ8N40wJ3HLuzj9u4cckvttboGz5HJbEzsUw7s2L+hWAncbv/ZYv//X9S2vMfVniGKOW35UoAAAAASUVORK5CYII="/>
+                                </svg>                                  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 mt-5">
+                    <div class="menu-line"></div>
+                </div>
+                <div class="col-lg-9 mt-4">
+                    <p class="menu-item__text">В соответствии с положениями п. 1 ст. 1229 ГК РФ, исключительные права на все материалы, размещенные на сайте www.caspa.ru, принадлежат их правообладателям.</p>
+                    <p class="menu-item__text">Использование материалов размещенных на сайте возможно только с письменного согласия правообладателя. Любое неправомерное использование указанных материалов третьими лицами и/или</p>
+                    <p class="menu-item__text">организациями, а именно, копирование, цитирование, размещение на других сайтах без официального разрешения правообладателей влечет за собой ответственность, предусмотренную действующим</p>
+                    <p class="menu-item__text">законодательством РФ о защите исключительных прав.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End wrapper -->
+
+    <div class="reliability d-flex justify-content-end justify-content-sm-start flex-wrap position-relative">
+        <div class="reliability-left">
+            <div class="reliability-left-video">
+                <video loading="lazy"  id="videozero" style="object-fit: cover;background-size: cover; width: 100%; height: 100%;" preload="auto" playsinline="" autoplay="" loop="" muted=""> 
+                    <source src="https://www.dl.dropboxusercontent.com/s/l0lffbj0mf033d1/tplus.mp4?dl=0" type="video/mp4"> 
+                </video>
+            </div>
+            <div class="reliability-left-item w-100 d-flex justify-content-start justify-content-sm-center align-items-center bg-white">
+                <img loading="lazy"  src="assets/img/png/t_group.png" alt="t_group.png">
+            </div>
+        </div>
+        <div class="reliability-right d-flex justify-content-center align-items-sm-center align-items-start text-white">
+           <div class="col-lg-8">
+            <div class="d-flex align-items-center">
+                <span class="reliability-right__title1">7</span>
+                <div class="d-flex flex-column ms-3">
+                    <span class="reliability-right__title2">ЛЕТ</span>
+                    <span class="reliability-right__title3">Надёжности</span>
+                </div>
+            </div>
+            <p class="reliability-right__text">
+                Чтобы обрести современный внешний вид и повысить доверие абонентов, крупнейшая российская компания, работающая в сфере электроэнергетики и теплоснабжения, ранее называвшаяся «КЭС Холдинг», при моём участии, провела своевременный ребрендинг, превратившись в t+.
+            </p>
+            <div class="reliability-right-sub d-flex align-items-end justify-content-between">
+                <div>
+                    <p class="reliability-right-sub__text mb-2">До 2015 года</p>
+                    <img loading="lazy"  src="assets/img/png/reliability_icon.png" alt="" class="reliability-right-sub__img">
+                </div>
+                <button class="reliability-right-sub__btn">Детали проекта</button>
+            </div>
+           </div>
+        </div>
+    </div>
+    <!-- End reliability -->
+
+    <div class="stability d-flex justify-content-sm-end justify-content-start flex-wrap position-relative">
+        <div class="stability-left d-flex justify-content-center align-items-sm-center align-items-start text-white">
+            <div class="col-lg-8">
+             <div class="d-flex align-items-center">
+                 <span class="stability-left__title1">10</span>
+                 <div class="d-flex flex-column ms-3">
+                     <span class="stability-left__title2">ЛЕТ</span>
+                     <span class="stability-left__title3">Устойчивости</span>
+                 </div>
+             </div>
+             <p class="stability-left__text">
+                Чтобы выйти на ступень крупного отраслевого игрока и восприниматься влиятельным предприятием у партнеров всего мира, компания по производству химической продукции «синтез ока» реализовала ребрендинг компании, который помог подтвердить лидирующие позиции в отрасли
+             </p>
+             <div class="stability-left-sub d-flex align-items-end justify-content-between">
+                 <div>
+                     <p class="stability-left-sub__text mb-2">До 2012 года</p>
+                     <img loading="lazy"  src="assets/img/png/sintez_oka.png" alt="" class="stability-left-sub__img">
+                 </div>
+                 <button class="stability-left-sub__btn">Детали проекта</button>
+             </div>
+            </div>
+         </div>
+        <div class="stability-right">
+            <div class="stability-right-video">
+                <video loading="lazy"  id="videozero" style="object-fit: cover;background-size: cover; width: 100%; height: 100%;" preload="auto" playsinline="" autoplay="" loop="" muted=""> 
+                    <source src="https://www.dl.dropboxusercontent.com/s/l0lffbj0mf033d1/tplus.mp4?dl=0" type="video/mp4"> 
+                </video>
+            </div>
+            <div class="stability-right-item w-100 d-flex justify-content-end justify-content-sm-center align-items-center bg-white">
+                <img loading="lazy"  src="assets/img/png/stability__icon.png" alt="stability__icon.png">
+            </div>
+        </div>
+    </div>
+    <!-- End stability -->
+    
+    <div class="stability2 d-flex justify-content-end justify-content-sm-start flex-wrap position-relative">
+        <div class="stability2-left">
+            <div class="stability2-left-video">
+                <video loading="lazy"  id="videozero" style="object-fit: cover;background-size: cover; width: 100%; height: 100%;" preload="auto" playsinline="" autoplay="" loop="" muted=""> 
+                    <source src="https://www.dl.dropboxusercontent.com/s/l0lffbj0mf033d1/tplus.mp4?dl=0" type="video/mp4"> 
+                </video>
+            </div>
+            <div class="stability2-left-item w-100 d-flex justify-content-start justify-content-sm-center align-items-center bg-white">
+                <img loading="lazy"  src="assets/img/png/ekf.png" alt="t_group.png">
+            </div>
+        </div>
+        <div class="stability2-right d-flex justify-content-center align-items-sm-center align-items-start text-white">
+           <div class="col-lg-8">
+            <div class="d-flex align-items-center">
+                <span class="stability2-right__title1">11</span>
+                <div class="d-flex flex-column ms-3">
+                    <span class="stability2-right__title2">ЛЕТ</span>
+                    <span class="stability2-right__title3">Стабильности</span>
+                </div>
+            </div>
+            <p class="stability2-right__text">
+                Чтобы дистанцироваться от конкурентов и завоевать внимание потребителей компания «Флавир» провела серьёзный ребрендинг, который помог стать одним из самых крупных российских производителей электрооборудования и международным холдингом EKF.
+            </p>
+            <div class="stability2-right-sub d-flex align-items-end justify-content-between">
+                <div>
+                    <p class="stability2-right-sub__text mb-2">До 2011 года</p>
+                    <img loading="lazy"  src="assets/img/png/ek.png" alt="" class="stability2-right-sub__img">
+                </div>
+                <button class="stability2-right-sub__btn">Детали проекта</button>
+            </div>
+           </div>
+        </div>
+    </div>
+    <!-- End stability2 -->
+
+    <div class="completed-projects d-flex justify-content-sm-end justify-content-start flex-wrap position-relative">
+        <div class="completed-projects-left d-flex justify-content-center align-items-start text-white">
+            <div class="col-lg-8 text-center">
+             <div class="d-flex align-items-end flex-column">
+                 <span class="completed-projects-left__title">600+</span>
+                 <div class="d-flex flex-column ms-3">
+                     <span class="completed-projects-left__title2">Выполненных</span>
+                     <span class="completed-projects-left__title3">проектов</span>
+                 </div>
+             </div>
+                <img  src="assets/img/png/arrow_pr.png" alt="arrow" class="completed-projects-left-arrow">
+            </div>
+         </div>
+        <div class="completed-projects-right">
+            <div class="completed-projects-right-video">
+                <video loading="lazy"  id="videozero" style="object-fit: cover;background-size: cover; width: 100%; height: 100%;" preload="auto" playsinline="" autoplay="" loop="" muted=""> 
+                    <source src="https://www.dl.dropboxusercontent.com/s/l0lffbj0mf033d1/tplus.mp4?dl=0" type="video/mp4"> 
+                </video>
+            </div>
+            <div class="completed-projects-right-item w-100 d-flex justify-content-center align-items-center bg-white">
+                <a href="#" download>
+                    <button class="completed-projects-right__btn">Скачать портфолио PDF</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- End stability -->
+
+    <div class="main">
+        <div class="d-flex flex-wrap">
+            <div class="main-item">
+                <div class="main-list big-list">
+                    <div class="main-list-info big-list-info position-relative">
+                        <video loading="lazy"  id="videozero" style="object-fit: cover;background-size: cover; width: 100%; height: 100%;" preload="auto" playsinline="" autoplay="" loop="" muted=""> <source src="https://www.dl.dropboxusercontent.com/s/sfp8oh9uhfm48nw/logo.mp4?dl=0" type="video/mp4"> </video>
+                        <div class="main-list-info-box position-absolute d-flex align-items-end">
+                            <p class="main-list-info-box__text">Посетители элитного клубного дома big-list Golf Club Residence высоко ценят уровень его сервиса. Сдержанность и лаконичность, статус и эксклюзив — это то, что удалось подчеркнуть с помощью современного логотипа.</p>
+                        </div>
+                    </div>
+                    <div class="main-list-text">
+                        <span>Ambassador</span>
+                    </div>
+                </div>
+                <div class="main-list">
+                    <div class="main-list-info position-relative">
+                        <img loading="lazy"  src="assets/img/png/main1.png" alt="main.png" class="main-list-info__img">
+                        <div class="main-list-info-box position-absolute d-flex align-items-end">
+                            <p class="main-list-info-box__text"> Более современный логотип компании Grunwald и разработка констант фирменного стиля позволили внешнему виду предприятия обрести цельность, индивидуальность и мужественность. </p>
+                        </div>
+                    </div>
+                    <div class="main-list-text">
+                        <span>Grunvwald</span>
+                    </div>
+                </div>
+                <div class="main-list">
+                    <div class="main-list-info position-relative">
+                        <img loading="lazy"  src="assets/img/png/main2.png" alt="main.png" class="main-list-info__img">
+                        <div class="main-list-info-box position-absolute d-flex align-items-end">
+                            <p class="main-list-info-box__text"> С помощью нового промышленного логотипа, фирменного стиля и дизайна носителей актуализирован внешний вид компании, занимающей позицию ведущего производителя аминов и другой химической продукции. </p>
+                        </div>
+                    </div>
+                    <div class="main-list-text">
+                        <span>Sintez Oka</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-item">
+                <div class="main-list">
+                    <div class="main-list-info position-relative">
+                        <img loading="lazy"  src="assets/img/png/main3.png" alt="main.png" class="main-list-info__img">
+                        <div class="main-list-info-box position-absolute d-flex align-items-end">
+                            <p class="main-list-info-box__text"> Создание логотипа, напоминающего сияющую корону, позволило, комплексу авто товаров и услуг категории «люкс» Chisto Kristo, привлечь новых клиентов. Теперь компания чётко ассоциируется с эффективностью и успехом. </p>
+                        </div>
+                    </div>
+                    <div class="main-list-text">
+                        <span>Chisto Kristo</span>
+                    </div>
+                </div>
+                <div class="main-list">
+                    <div class="main-list-info position-relative">
+                        <img loading="lazy"  src="assets/img/png/main4.png" alt="main.png" class="main-list-info__img">
+                        <div class="main-list-info-box position-absolute d-flex align-items-end">
+                            <p class="main-list-info-box__text"> Чтобы отразить позицию лидера, в дизайне логотипа бренда «ДиСевен» использован принцип контрового света, создающий яркий ореол вокруг него. Метафора единства света и тени, уюта и спокойствия помогла создать образ уверенной и надежной компании. </p>
+                        </div>
+                    </div>
+                    <div class="main-list-text">
+                        <span>D7</span>
+                    </div>
+                </div>
+                <div class="main-list big-list">
+                    <div class="main-list-info big-list-info position-relative">
+                        <img loading="lazy"  src="assets/img/png/main5.png" alt="big-list" class="main-list-info__img big-list-info__img">
+                        <div class="main-list-info-box position-absolute d-flex align-items-end">
+                            <p class="main-list-info-box__text">После разработки логотипа, фирменного стиля и дизайна носителей компания обрела новый имидж. С помощью логотипа удалось передать клиентам компании ее стабильность, масштаб производства, а также энергию тепла.</p>
+                        </div>
+                    </div>
+                    <div class="main-list-text">
+                        <span>Вулкан</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-item-big">
+                <div class="d-flex">
+                    <div class="main-list">
+                        <div class="main-list-info position-relative">
+                            <img loading="lazy"  src="assets/img/png/main6.png" alt="main.png" class="main-list-info__img">
+                            <div class="main-list-info-box position-absolute d-flex align-items-end">
+                                <p class="main-list-info-box__text">  Создание логотипа и ребрендинг помог национальному вендинговому оператору Beanetto расширить сеть, которая теперь охватывает 17 городов России. </p>
+                            </div>
+                        </div>
+                        <div class="main-list-text">
+                            <span>Beanetto</span>
+                        </div>
+                    </div>
+                    <div class="main-list">
+                        <div class="main-list-info position-relative">
+                            <img loading="lazy"  src="assets/img/png/main7.png" alt="main.png" class="main-list-info__img">
+                            <div class="main-list-info-box position-absolute d-flex align-items-end">
+                                <p class="main-list-info-box__text"> Разработка логотипа напоминающего одновременно Колизей и гоночную трассу, повысила узнаваемость торгового центра Coliseum GP. Анимированное лого подчеркнуло динамичный ритм жизни ТЦ.</p>
+                            </div>
+                        </div>
+                        <div class="main-list-text">
+                            <span>Coliseum GT</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-list main-list-big d-none d-md-block">
+                    <div class="main-list-info position-relative">
+                        <video loading="lazy"  id="videozero" style="object-fit: cover;background-size: cover; width: 100%; height: 100%;" preload="auto" playsinline="" autoplay="" loop="" muted=""> <source src="https://www.dl.dropboxusercontent.com/s/9mqi3nky55fhnif/Syssoft.mp4?dl=0" type="video/mp4"> </video>
+                        <div class="main-list-info-box position-absolute d-flex align-items-end">
+                            <p class="main-list-info-box__text"> Креативный логотип вывел на новый уровень внешний вид компании, предлагающей лучшее программное обеспечение. Визуальный образ бренда получил динамику, с помощью которой акцентируется внимание на новые горизонты, открывающиеся перед клиентами компании. </p>
+                        </div>
+                    </div>
+                    <div class="main-list-text">
+                        <span>Syssoft</span>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="main-list">
+                        <div class="main-list-info position-relative">
+                            <video loading="lazy"  id="videozero" style="object-fit: cover;background-size: cover; width: 100%; height: 100%;" preload="auto" playsinline="" autoplay="" loop="" muted=""> <source src="https://www.dl.dropboxusercontent.com/s/1ve2imppvrugsmy/Webinnovations.mp4?dl=0" type="video/mp4"> </video>
+                            <div class="main-list-info-box position-absolute d-flex align-items-end">
+                                <p class="main-list-info-box__text">Анимированный логотип IT компании отразил адаптивность ее технических решений и привлек новых клиентов, у которых стал ассоциироваться с инновациями, экспертностью, гибкостью и глубокими отраслевыми знаниями.</p>
+                            </div>
+                        </div>
+                        <div class="main-list-text">
+                            <span>Web innovations</span>
+                        </div>
+                    </div>
+                    <div class="main-list">
+                        <div class="main-list-info position-relative">
+                            <img loading="lazy"  src="assets/img/png/main8.png" alt="main.png" class="main-list-info__img">
+                            <div class="main-list-info-box position-absolute d-flex align-items-end">
+                                <p class="main-list-info-box__text">Для уникального сендвич-бара разработка логотипа и фирменного стиля стала уверенным шагом навстречу новым клиентам. Заведение превратилось в одну из визитных карточек Калиниграда.</p>
+                            </div>
+                        </div>
+                        <div class="main-list-text">
+                            <span>Brott and Roll</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-list main-list-big d-md-none">
+                    <div class="main-list-info position-relative">
+                        <video loading="lazy"  id="videozero" style="object-fit: cover;background-size: cover; width: 100%; height: 100%;" preload="auto" playsinline="" autoplay="" loop="" muted=""> <source src="https://www.dl.dropboxusercontent.com/s/9mqi3nky55fhnif/Syssoft.mp4?dl=0" type="video/mp4"> </video>
+                        <div class="main-list-info-box position-absolute d-flex align-items-end">
+                            <p class="main-list-info-box__text"> Креативный логотип вывел на новый уровень внешний вид компании, предлагающей лучшее программное обеспечение. Визуальный образ бренда получил динамику, с помощью которой акцентируется внимание на новые горизонты, открывающиеся перед клиентами компании. </p>
+                        </div>
+                    </div>
+                    <div class="main-list-text">
+                        <span>Syssoft</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-all">
+            <div class="d-flex flex-wrap w-100">
+                <div class="main-item-big">
+                    <div class="d-flex">
+                        <div class="main-list">
+                            <div class="main-list-info position-relative">
+                                <img loading="lazy"  src="assets/img/png/main9.png" alt="main.png" class="main-list-info__img">
+                                <div class="main-list-info-box position-absolute d-flex align-items-end">
+                                    <p class="main-list-info-box__text">Финансовая компания получила новый логотип, который отражает ее надежность, технологичность и профессионализм. Это позволило бренду донести клиентам свои ценности, выделяющие ее из конкурентной среды в брокерской сфере.</p>
+                                </div>
+                            </div>
+                            <div class="main-list-text">
+                                <span>Nas Broker</span>
+                            </div>
+                        </div>
+                        <div class="main-list">
+                            <div class="main-list-info position-relative">
+                                <img loading="lazy"  src="assets/img/png/main10.png" alt="main.png" class="main-list-info__img">
+                                <div class="main-list-info-box position-absolute d-flex align-items-end">
+                                    <p class="main-list-info-box__text">Ребрендинг внешнего вида, разработка стильного логотипа, фирменных констант и дизайна носителей способствовали позиционированию компании не просто как химчистки, а мастерской чистоты с творческим подходом.</p>
+                                </div>
+                            </div>
+                            <div class="main-list-text">
+                                <span>Bertoloni</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-list main-list-big">
+                        <div class="main-list-info position-relative">
+                            <img loading="lazy"  src="assets/img/png/main11.png" alt="main.png" class="main-list-info__img">
+                            <div class="main-list-info-box position-absolute d-flex align-items-end">
+                                <p class="main-list-info-box__text">Крупнейшая компания, работающая на рынке электроэнергетики и теплоснабжения, провела ребрендинг, чтобы модернизировать внешний вид и повысить доверие абонентов.</p>
+                            </div>
+                        </div>
+                        <div class="main-list-text">
+                            <span>Т Плюс</span>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="main-list">
+                            <div class="main-list-info position-relative">
+                                <img loading="lazy"  src="assets/img/png/main12.png" alt="main.png" class="main-list-info__img">
+                                <div class="main-list-info-box position-absolute d-flex align-items-end">
+                                    <p class="main-list-info-box__text">Ребрендинг и модернизация логотипа производства крепежных изделий OMAX. Ювелирная точность каждого элемента в логотипе подчеркивает прочность и надежность продукции, предназначенной для самых сложных работ.</p>
+                                </div>
+                            </div>
+                            <div class="main-list-text">
+                                <span>Omax</span>
+                            </div>
+                        </div>
+                        <div class="main-list">
+                            <div class="main-list-info position-relative">
+                                <img loading="lazy"  src="assets/img/png/main13.png" alt="main.png" class="main-list-info__img">
+                                <div class="main-list-info-box position-absolute d-flex align-items-end">
+                                    <p class="main-list-info-box__text">Для комплекса отдыха на берегу моря во Владивостоке проведена разработка логотипа, фирменного стиля и дизайна носителей. Результат — привлечение более широкой аудитории и проведение мероприятий разной направленности.</p>
+                                </div>
+                            </div>
+                            <div class="main-list-text">
+                                <span>Маяк</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="main-list">
+                            <div class="main-list-info position-relative">
+                                <img loading="lazy"  src="assets/img/png/main14.png" alt="main.png" class="main-list-info__img">
+                                <div class="main-list-info-box position-absolute d-flex align-items-end">
+                                    <p class="main-list-info-box__text">После модернизации внешнего вида бренд, предлагающий отборные семечки, стал более узнаваемым и стильным. Новый логотип коррелирует с современным образом успешного человека, следящего за здоровьем.</p>
+                                </div>
+                            </div>
+                            <div class="main-list-text">
+                                <span>Дед Семён</span>
+                            </div>
+                        </div>                 
+                        <div class="main-list">
+                            <div class="main-list-info position-relative">
+                                <img loading="lazy"  src="assets/img/png/main15.png" alt="main.png" class="main-list-info__img">
+                                <div class="main-list-info-box position-absolute d-flex align-items-end">
+                                    <p class="main-list-info-box__text">Новый логотип финансовой компании помог ей выделиться и подчеркнул, что банк претендует на лидерские позиции на национальном уровне. Он вызывает ассоциации с порядком, защитой, стабильностью и бережливостью.</p>
+                                </div>
+                            </div>
+                            <div class="main-list-text">
+                                <span>First Deposit Bank</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-item">
+                    <div class="main-list">
+                        <div class="main-list-info position-relative">
+                            <img loading="lazy"  src="assets/img/png/main16.png" alt="main.png" class="main-list-info__img">
+                            <div class="main-list-info-box position-absolute d-flex align-items-end">
+                                <p class="main-list-info-box__text">Стояла задача создать не просто логотип компании, организующей речные круизы премиум-класса, а её эмоциональный портрет. Новые визуальные константы помогли создать у клиентов образ компании, у которой все под контролем.</p>
+                            </div>
+                        </div>
+                        <div class="main-list-text">
+                            <span>Amma River Cruises</span>
+                        </div>
+                    </div>
+                    <div class="main-list">
+                        <div class="main-list-info position-relative">
+                            <img loading="lazy"  src="assets/img/png/main17.png" alt="main.png" class="main-list-info__img">
+                            <div class="main-list-info-box position-absolute d-flex align-items-end">
+                                <p class="main-list-info-box__text">Рестайлинг известного тульского бренда молочной продукции придал ему уникальность, яркость и выделил на фоне конкурентов, подчеркнул приверженность к традициям и желание радовать местных покупателей качественными товарами.</p>
+                            </div>
+                        </div>
+                        <div class="main-list-text">
+                            <span>Тульское</span>
+                        </div>
+                    </div>
+                    <div class="main-list">
+                        <div class="main-list-info position-relative">
+                            <img loading="lazy"  src="assets/img/png/main18.png" alt="main.png" class="main-list-info__img">
+                            <div class="main-list-info-box position-absolute d-flex align-items-end">
+                                <p class="main-list-info-box__text">Для торговой марки, под которой свою продукцию выпускает Тульский молочный комбинат, проведен масштабный рестайлинг. Он включал модернизацию логотипа и внешнего вида упаковки, создание уникального графического языка.</p>
+                            </div>
+                        </div>
+                        <div class="main-list-text">
+                            <span>Тульское</span>
+                        </div>
+                    </div>
+                    <div class="main-list big-list">
+                        <div class="main-list-info big-list-info position-relative">
+                            <img loading="lazy"  src="assets/img/png/main19.png" alt="big-list" class="main-list-info__img big-list-info__img">
+                            <div class="main-list-info-box position-absolute d-flex align-items-end">
+                                <p class="main-list-info-box__text">Была поставлена задача не просто создать логотип, а провести ребрендинг, который бы выражал мощный потенциал компании, подтверждал ее позиции активного игрока на международных рынках электрооборудования. </p>
+                            </div>
+                        </div>
+                        <div class="main-list-text">
+                            <span>EKF</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-item">
+                    <div class="main-list big-list">
+                        <div class="main-list-info big-list-info position-relative">
+                            <img loading="lazy"  src="assets/img/png/main20.png" alt="main.png" class="main-list-info__img">
+                            <div class="main-list-info-box position-absolute d-flex align-items-end">
+                                <p class="main-list-info-box__text">С помощью создания лого удалось заострить внимание потенциальных и имеющихся клиентов компании на ее технологичности, серьезном инженерном подходе и умении работать с максимально сложными задачами.</p>
+                            </div>
+                        </div>
+                        <div class="main-list-text">
+                            <span>ЩитЭлектроКомплект</span>
+                        </div>
+                    </div>
+                    <div class="main-list">
+                        <div class="main-list-info position-relative">
+                            <img loading="lazy"  src="assets/img/png/main21.png" alt="main.png" class="main-list-info__img">
+                            <div class="main-list-info-box position-absolute d-flex align-items-end">
+                                <p class="main-list-info-box__text">Автоматизированное агентство интернет-рекламы ждало от логотипа и фирменного стиля символическое изображение широких возможностей компании, ее целостного подхода и аналитического контроля за любыми процессами.</p>
+                            </div>
+                        </div>
+                        <div class="main-list-text">
+                            <span>Cubo</span>
+                        </div>
+                    </div>
+                    <div class="main-list">
+                        <div class="main-list-info position-relative">
+                            <img loading="lazy"  src="assets/img/png/main22.png" alt="main.png" class="main-list-info__img">
+                            <div class="main-list-info-box position-absolute d-flex align-items-end">
+                                <p class="main-list-info-box__text">Для привлечения новых клиентов кофейни Calipso создан логотип и разработан дизайн носителей. Стильное оформление вызывает ассоциации с уникальным местом, где варят качественный кофе и царит дружелюбная атмосфера.</p>
+                            </div>
+                        </div>
+                        <div class="main-list-text">
+                            <span>Calipso</span>
+                        </div>
+                    </div>
+                    <div class="main-list">
+                        <div class="main-list-info position-relative">
+                            <img loading="lazy"  src="assets/img/png/main23.png" alt="main.png" class="main-list-info__img">
+                            <div class="main-list-info-box position-absolute d-flex align-items-end">
+                                <p class="main-list-info-box__text"> Модернизация внешнего облика предприятия позволила создать круг лояльных клиентов. Новый образ метафорически выражает философию общности, концентрации и продвижения.</p>
+                            </div>
+                        </div>
+                        <div class="main-list-text">
+                            <span>Электросвязь</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-brends d-flex flex-wrap">
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend1.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">Terra Prima</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend2.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">SNRG</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend3.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">Bankhaus Erbe</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/BREND4.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">Revolt</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend5.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">TSA</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend6.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">Gnezdo</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend7.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">ITL</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend8.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">STEP grou</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend9.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">Yuggo</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend10.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">Amber racket</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend11.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">MVL</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend12.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">Технозавр</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend13.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">agr2010</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend14.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">PUREPPERO</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend15.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">Woolcano</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend16.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">Strategic Music</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend17.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">Jinn TV</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend18.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">Wit&Wis</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend19.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">Radiance</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend20.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">Verve</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend21.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">Point</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend22.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">Centrix</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend23.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">Super Hit</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend24.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">12 logos</div>
+                </div>
+                <div class="main-brends-item position-relative">
+                    <img src="assets/img/png/brend25.png" alt="brend" class="main-brends-item__img position-absolute top-0 start-0 w-100 h-100">
+                    <div class="main-brends-item-info position-absolute start-0 w-100 h-100 d-flex justify-content-center align-items-end">40 logos</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-openAll d-flex align-items-center justify-content-center">
+            <div class="container">
+                <div class="row d-flex justify-content-end">
+                    <div class="col-lg-6 col-12 d-flex align-items-center justify-content-around text-white fw-normal">
+                        <div class="main-openAll__btn">Загрузить ещё</div>
+                        <button class="project-archive__btn">Архив проектов</button>
+                    </div>
+                </div>
+            </div>
+            <div class="main-openAll-line"></div>
+            <div class="main-openAll-line_mob"></div>
+        </div>
+    </div>
+    <!-- End main -->
+
+    <footer class="footer text-white">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-5 col-md-6 col-sm-8 col-12">
+                    <p class="fw-bold order__title">Заказать</p>
+                    <div class="d-flex flex-column align-items-start justify-content-between mt-2">
+                        <div class="d-flex flex-md-column flex-row align-items-start">
+                            <a href="#" class="to-order order1">Логотип</a>
+                            <a href="#" class="to-order order2 ms-2 ms-md-0">Фирменны стиль</a>
+                        </div>
+                        <div class="d-flex flex-md-column flex-row align-items-start">
+                            <a href="#" class="to-order order3">Брендбук</a>
+                            <a href="#" class="to-order order4 ms-2 ms-md-0">Ребрендинг </a>
+                        </div>
+                        <div class="d-flex flex-md-column flex-row align-items-start">
+                            <a href="#" class="to-order order5">Рестайлинг </a>
+                            <a href="#" class="to-order order5 ms-2 ms-md-0">Дизайн упаковки</a>
+                        </div>
+                        <div class="d-flex flex-md-column flex-row align-items-start">
+                            <a href="#" class="to-order order6">Дизайн этикетки</a>
+                            <a href="#" class="to-order order7 ms-2 ms-md-0">Дизайн каталога</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 col-sm-8 col-12 mt-md-0 mt-4">
+                    <form id="form">
+                        <div class="form__box">
+                            <input class="form__inp" id="userName" type="text" maxlength="14" placeholder=" " required>
+                            <label for="userName" class="form__label lang-yourName">Имя</label>
+                            <small></small>
+                        </div>
+                        <div class="form__box">
+                            <input class="form__inp" id="userEmail" type="email" placeholder=" " required>
+                            <label for="userEmail" class="form__label lang-yourEmail">E-mail</label>
+                            <small></small>
+                        </div>
+                        <div class="form__box">
+                            <input class="form__inp" id="message" placeholder=" " required>
+                            <label for="message" class="form__label lang-comments">Сообщение</label>
+                            <small></small>
+                        </div>
+                        <div class="text-end">
+                            <button type="button" id="submitForm" class="form__btn lang-submit">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-8 offset-lg-1">
+                    <div class="text-end">
+                        <a href="tel:+79036595304" class="footer__phone text-white fw-normal">+7 903.659.53.04</a> <br>
+                        <a href="mailto:caspa@inbox.ru" class="footer__email text-white fw-normal">caspa@inbox.ru</a>
+                    </div>
+                    <div class="text-end mt-5">
+                        <button class="footer__btn">Заказать обратный звонок</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-box d-flex justify-content-center">
+                <div class="col-lg-1 col-2 d-md-flex d-none">
+                    <a href="#" class="logo_link">
+                        <img loading="lazy"  src="assets/img/png/logo.png" alt="logo" class="logo">
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-4">
+                    <div class="footer-link_line"></div>
+                    <ul class="footer-item">
+                        <li class="footer-list"><a href="#" class="footer-list__link footerLink1">Главная</a></li>
+                        <li class="footer-list"><a href="#" class="footer-list__link footerLink2">Портфолио</a></li>
+                        <li class="footer-list"><a href="#" class="footer-list__link footerLink3">Автор</a></li>
+                        <li class="footer-list"><a href="#" class="footer-list__link footerLink4">Отзывы</a></li>
+                        <li class="footer-list"><a href="#" class="footer-list__link footerLink5">Услуги</a></li>
+                        <li class="footer-list"><a href="#" class="footer-list__link footerLink6">Статьи</a></li>
+                        <li class="footer-list"><a href="#" class="footer-list__link footerLink7">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-7 col-8 ps-lg-5 d-sm-block d-none">
+                    <div class="footer-link_line"></div>
+                    <ul class="footer-item">
+                        <li class="footer-list"><a href="#" class="footer-list__link footerLink1">Разработка логотипа</a></li>
+                        <li class="footer-list"><a href="#" class="footer-list__link footerLink2">Разработка фирменного стиля</a></li>
+                        <li class="footer-list"><a href="#" class="footer-list__link footerLink3">Разработка брендбука</a></li>
+                        <li class="footer-list"><a href="#" class="footer-list__link footerLink4">Ребрендинг компании</a></li>
+                        <li class="footer-list"><a href="#" class="footer-list__link footerLink5">Редизайн или рестайлинг логотипа</a></li>
+                        <li class="footer-list"><a href="#" class="footer-list__link footerLink6">Разработка дизайна упаковки</a></li>
+                        <li class="footer-list"><a href="#" class="footer-list__link footerLink7">Стоимость и условия сотрудничества</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 ps-md-5">
+                    <div class="footer-icons d-block justify-content-start ps-lg-5">
+                        <div class="d-flex">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="13" viewBox="0 0 20 13">
+                                    <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="20" height="13" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAABoklEQVQ4jX2TPUiXURTGf5aJodDnJDWEDn2JQUaDk+JWNoij4HBum4MN0VBJgovQUIO03EP4sSkotdWgYw2Ci+giiotOaYJipRgnziuHP689cHjPvffc5z3nOedWqeZjynEILAFvRdJkEaGaG4Hmyhsiada+Z04hM1QDLcCEau4O+13ATIlRSTgGtLt1AM+A3372NMR9AC6V2EkWBdZF0nxYz6nmHqANuBL27fIg8Bi4DGwBn1TzsEj6EQlrVfPFsL4H3HV/0fVrAL4D10Jco1fzRDU/iCW/ALaDzQEXgAXgpceMOJlJ0QvcAga8gUb86n9dLrBnTQSmgZ9AHTAqkvqLANU8BZg8a5HwPfDO/bPATW/Adc+6FVj18wPgV/jpeaAGOIoa7oik9bBeVc3jXq414kY4WwY2ysqpLtsMaAr+JvAHOGddFUlvQslXgXrTMpZs3fsWCO4Ane6vALeBz8Aj17LPG3cfMA1ttL7GDB+6VWIfSCLpWDU/9xjL6N9TC9i18bEMKw8K2GjYW/4okk70Us02NkM2d05sRF+A1yJp5S97RnwUCpgVswAAAABJRU5ErkJggg=="/>
+                                </svg>
+                            </div>
+                            <div class="icon mx-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="17" viewBox="0 0 17 17">
+                                    <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="17" height="17" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAB9UlEQVQ4jZXUS4hPYRjH8c/8jSwot2Sj1CQNsUAWKClKWbjNFCmK91BKYaFMiaWNkAXSeV2KbJRplLKyIJdSiFwSSUm5DJKNS+mdHnWMS3k359/pfb7/3/P8nt9pM+jkXI/BJixFJ0bjPR6hD8dSqvqbVb9Acq43Yy9G4htO4i3GYQ6m4iN6UqqO/AbJuT6AbbiFB1iHlFJ1vHFnHg5hJg6mVG0v71sNBQVwFuXiRtwuF3OuJzbElnef4ve2qNMWM3iGJwWQUvUlwNOjqDelqjvnurRyGjOwA6sxCR2tGGKZwfafAAN9VPeKEnTlXF/AXUwubaZU7cOWqNtUlFwrNKzE8Bhi+YdpmI/xwT2F3SlVLxozelicK5D+sHHweY2bKOq6sBj3MQJf0R9Kl7UCUPxfgSWYVdSkVI0Ph+4E/BJe4nHM8APWlvr2WKQ3KVW9DZlDcq53Yle0+Dme+/E0VmMCVmFUe2zi3AagDOscFuEy9sTildk9T6k63LjbXepb0cqUnOu5OdfDcDEARcnClKorMZtXWN4ALAgD+pp78jRsXI+tKVWHBkXiKDaErd9xNSzvaEWYemKVC+DMYECcUjQ0Wj+B2ZGh/oG1jzAVu8rpLK39AXIjnuexJrIzEMJ/pbiE8DreYWxkqnwa/p7iBuj/vif4Ae9ItfibOnxOAAAAAElFTkSuQmCC"/>
+                                  </svg>
+                            </div>
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="18" viewBox="0 0 14 18">
+                                    <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="14" height="18" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAASCAYAAABrXO8xAAABlUlEQVQ4jYXSTYjOURTH8c/zDKOUIikvJRJlp4YUjVgoKclG9vcuhLKQJWXDUl5mof63LGYWs1YsxIrUaKJGyYIVobw3G3nt1vlPzzw9w9n8/uee873nnHv+HT1WSrMeJ3AAm7EUXzCFCYynlH9XYg4spTmDS1iMGnyF79gYF1R7hCMp5fedgM7jAn7gIq6llD9GbBjHcAXL8QS7OqU02/E4qhxKKd82wEpp9uF+RM5WcBJHcSOlfLyUZgS3Yoy9KeUXPeM8wG7MdLE/zsdDL2MNVuNgX+1noVsruCKc9uYdPYlv+sAlod0KfgpnVejn0D89M7W2KfRdBe+Gczr0eehUSvlDz3zLsLONdWMN37CnlKb6IxF82FftFIbje6LdY13yltoCnkaw6mhKebaU5jAmY8bpWrn/lzuJ6/iFIcyitrshUl7Hil52+9oZDb0TrX0N6C2uYluFasKiBcB7KeUxjJXSDKWUawfzbK5iKc1KrG3B9nwQNA/EutDplPLMoOSFwJ+h5/4H9YN1FTdTyvVh/m34C/3Yd/rr6gtyAAAAAElFTkSuQmCC"/>
+                                </svg>                                  
+                            </div>
+                        </div>
+                        <div class="d-flex mt-4 ms-lg-0">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="6" height="14" viewBox="0 0 7 14">
+                                    <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="7" height="14" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAOCAYAAADjXQYbAAAAdElEQVQYlWNkgIK5c+dkMDAwlDMwMCjAxMCSc+fOsWBgYDjOgAZYoFxTJOEXDAwMMxmQJJmRJE8mJ6c0gI2dO3dOAQMDgz0DA0MAVPIKyCaYzn40q3SgYl+Y0B2BBJ7BXAsyGmbCxuTkFLAV+HQOMkkGBgYAzqEWX2EYJaYAAAAASUVORK5CYII="/>
+                                </svg>                                  
+                            </div>
+                            <div class="icon mx-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="17" viewBox="0 0 17 17">
+                                    <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="17" height="17" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABdklEQVQ4ja3UsWoVURAG4C9xCRKLQAohhWIVEe8TWNhpJTZBg9wikLOgNnkX00RhN2ARxMrWOkWe4FoIVloEUgTSBLkQIiOzcLxEDeg0s3Pm/P/O/LOzc9D3XfgNbOIulv3ejvEJu3hbSns+lwTvsI4jHOAEp5hWVAtYxBLu4Tre41mTFawn88tS2ukfqoiqA3MVr7Lyj00+HF2GIG2Ca7iDR4FvUoP9mqDvuytoMcZNfMUeumw17Hu2fr9JEU9mCKLXNRzmm0d4jQehRyntWd4N3PJ8Yk+rctskeINbpbQPw2e8lnk1biCptRhnBVtDi+m38nxc3Z3WJLWFBpNZkTOeZP4Xu4gkRBz1fbdQH2Y8yvyFJDUgprCC7YEo/Xae71V3f+abDBarRIwxxHyOx33fDdMJgg+ZV+PmcxeWqt5jfE/xAl+wmj7iJ8N40wJ3HLuzj9u4cckvttboGz5HJbEzsUw7s2L+hWAncbv/ZYv//X9S2vMfVniGKOW35UoAAAAASUVORK5CYII="/>
+                                </svg>                                  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-sub position-relative">
+            <div class="footer-sub-line position-absolute top-0"></div>
+            <div class="footer-sub-line_mob position-absolute top-0"></div>
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-10">
+                        <p class="footer-sub__text">© 2009 — 2022. Независимый графический дизайнер Денис Ульянов.</p>
+                        <p class="footer-sub__text gray_text">Разработка логотипа, фирменного стиля, брендбука, ребрендинг, рестайлинг.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+    
+
+    <script src="assets/js/plugins/jquery.js"></script>
+    <script src="assets/js/plugins/slick.min.js"></script>
+    <script src="assets/js/plugins/gsap.js"></script>
+    <script src="assets/js/plugins/gsapScroll.js"></script>
+    <script src="assets/js/gsap_setting.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
